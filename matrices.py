@@ -1,15 +1,13 @@
 import random as r
 print("Generar Matriz Bidimensional")
 
-Matriz = []
+matriz = []
 
-for i in range(3):
-	Matriz.append([])
-	for j in range(3):
-		Matriz[i].append(r.randint(1,9))
-
-
-for fila in Matriz:
+for i in range(5):
+	matriz.append([])
+	for j in range(5):
+		matriz[i].append(r.randint(1,9))
+for fila in matriz:
 	print(fila)
 
 
