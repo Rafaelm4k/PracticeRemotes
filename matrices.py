@@ -9,7 +9,8 @@ for i in range(3):
 		Matriz[i].append(r.randint(1,9))
 
 
-for fila in Matriz:
-	print(fila)
+def ImprimirMatriz(Matriz):
+	for fila in Matriz:
+		print(fila)
 
-
+ImprimirMatriz(Matriz)
